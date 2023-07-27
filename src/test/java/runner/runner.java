@@ -11,7 +11,8 @@ import page.BasePage;
         features = "src/test/resources/features",
         glue = "steps",
         plugin = { "pretty", "html:target/cucumber-reports"},
-        monochrome = true
+        monochrome = true,
+        tags = "@Smoke"
 )
 
 public class runner {
