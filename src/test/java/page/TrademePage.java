@@ -1,12 +1,10 @@
 package page;
 
-import io.cucumber.core.internal.com.fasterxml.jackson.databind.ser.Serializers;
+import base.BasePage;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import utils.Locators;
 
-public class TrademePage extends BasePage{
+public class TrademePage extends BasePage {
 
     private String searchLabelLocator = Locators.searchLabelLocator;
     private String searchTextBoxLocator = Locators.searchTextBoxLocator;

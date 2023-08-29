@@ -7,6 +7,7 @@ version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 dependencies {
@@ -16,6 +17,8 @@ dependencies {
     implementation group: 'io.cucumber', name: 'cucumber-java', version: '7.11.0'
     implementation group: 'io.cucumber', name: 'cucumber-junit', version: '7.11.0'
     implementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.7'
+    // https://mvnrepository.com/artifact/io.qameta.allure/allure-cucumber7-jvm
+    implementation group: 'io.qameta.allure', name: 'allure-cucumber7-jvm', version: '2.21.0'
 
 
 }

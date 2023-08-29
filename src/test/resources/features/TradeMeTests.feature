@@ -9,6 +9,9 @@ Feature: Test Tradme searching feature
     Then I can see a result text with <productExpected>
     Examples:
       | product     | productExpected |
-      | playstation | playstation     |
-      | iphone      | iphone          |
-      | nintendo    | suncorp         |
+      | playstation | playstationj    |
+
+
+  Scenario: As a user, I want find an specific product
+    When I search the product dog
+    Then I can see a result text with playstation
